@@ -1,0 +1,21 @@
+{
+  "name": "cross-storage-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hatskier/cross-storage-tests",
+  "author": "hatskier <suvorovalex1997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "buffer": "^5.5.0",
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "cross-storage": "^1.0.0",
+    "redstone-sdk": "^1.0.5"
+  }
+}
